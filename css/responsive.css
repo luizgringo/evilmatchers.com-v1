@@ -1,0 +1,137 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+
+
+}
+
+@media (min-width : 1100px) and (max-width: 1200px) {
+
+	.navbar-nav {
+	    margin-right: -100px;
+	}
+
+	.navbar-brand img {
+	    margin-left: -40px;
+	}
+
+}
+
+@media (min-width : 1057px) and (max-width: 1099px) {
+
+	.navbar-nav {
+	    margin-right: -80px;
+	}
+
+	.navbar-brand img {
+	    margin-left: -50px;
+	}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) and (max-width : 1056px){
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	
+	h2.title{
+		font-size: 40px;
+		line-height:40px;
+	}
+	.line-top{
+		width: 600px;
+	}
+	.line-btm{
+		width: 600px;
+	}
+
+	.navbar-brand {
+    	padding-top: 10px;
+	}
+	.navbar-brand img {
+	    margin-right: 4px;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+	    padding: 15px 9px;
+    	font-size: 14px;
+	}
+	.service-inner {
+	    width: 48%;
+	}
+
+	.image-overlay a i {
+	    margin-top: 65px;
+	}
+
+	.navbar-brand img{
+		margin-top: -2px;
+	}
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+
+	.navbar-brand img {
+    	margin-left: 10px;
+    	margin-top: -20px;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+	
+	.navbar-brand img {
+    	margin-left: 10px;
+    	margin-top: -2px;
+	}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+
+	.navbar-default .navbar-nav > li > a {
+    	padding: 15px;
+	}
+
+	.banner-content {
+	    padding: 55px 0px;
+	}
+
+	.navbar-brand {
+	    padding-top: 4px;
+	}
+
+
+	.profile-desc {
+   	 padding-left: 10px;
+	}
+	.service-wrapper {
+   	 padding-left: 20px;
+	}
+
+	.service-inner {
+	    width: 100%;
+	}
+	.skill-desc{
+		margin-bottom: 40px;
+	}
+	.resume-inner{
+		margin-bottom: 40px;
+	}
+
+	.image-overlay a i {
+	    margin-top: 110px;
+	}
+
+
+}
